@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "http-server -c-1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/trotzig/olga-henric-team/issues"
   },
-  "homepage": "https://github.com/trotzig/olga-henric-team#readme"
+  "homepage": "https://github.com/trotzig/olga-henric-team#readme",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
 }
